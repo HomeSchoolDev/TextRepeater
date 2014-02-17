@@ -1,0 +1,792 @@
+TTextRepeater
+v7
+r0
+t316588735.275559
+cCheck dependencies
+cCpResource build/Debug-iphoneos/TextRepeater.app/ResourceRules.plist "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist"
+cProcessInfoPlistFile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/Info.plist" TextRepeater-Info.plist
+cCompileXIB "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/MainWindow.xib"
+cCompileXIB "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib"
+cCopyPNGFile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/button.png" button.png
+cCompileXIB "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.xib"
+cCopyPNGFile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/LargeIcon.png" LargeIcon.png
+cCopyPNGFile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/SmallIcon.png" SmallIcon.png
+cProcessPCH /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-akxljsgqjhvakpbclhvhxojerkur/TextRepeater_Prefix.pch.gch TextRepeater_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-hfhxzihfnqcryvctqxydjeaunvrk/TextRepeater_Prefix.pch.gch TextRepeater_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/main.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeaterAppDelegate.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeaterViewController.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/InfoViewController.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeater" normal armv6
+cCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/main.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeaterAppDelegate.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeaterViewController.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/InfoViewController.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeater" normal armv7
+cCreateUniversalBinary "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/TextRepeater" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app.dSYM" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/TextRepeater"
+cProcessProductPackaging "/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/E576C7BA-25BB-43BD-AD6B-59B5E2E59CDD.mobileprovision" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision"
+cTouch "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app"
+cProcessProductPackaging "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent"
+cCodeSign "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app"
+
+N/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004CC11D1700000000000000CD
+t1287724311
+s205
+
+N/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004CC11D2E0000000000112F80
+t1287724334
+s1126272
+
+N/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004CC12BDD0000000000000071
+t1287728093
+s113
+
+N/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004CC12BE50000000000050EB0
+t1287728101
+s331440
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+c000000004C578FA900000000000001A7
+t1280806825
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004C5E20FF00000000000000CD
+t1281237247
+s205
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004C5E210F00000000000FF4C0
+t1281237263
+s1045696
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004C6C32360000000000000071
+t1282159158
+s113
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004C6C32410000000000099800
+t1282159169
+s628736
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Background.jpg
+c000000004D0FC420000000000000DFBC
+t1292878880
+s57276
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.h
+c000000004D2E794100000000000001C6
+t1294891329
+s454
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m
+c000000004D2E78F50000000000000B6E
+t1294891253
+s2926
+i"InfoViewController.h"
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.xib
+c000000004D2E7542000000000000850E
+t1294890306
+s34062
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.h
+c000000004CE3FBAD00000000000001FC
+t1290009517
+s508
+i<UIKit/UIKit.h>
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m
+c000000004CE3FBAD0000000000000AA3
+t1290009517
+s2723
+i"TextRepeaterAppDelegate.h"
+i"TextRepeaterViewController.h"
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.h
+c000000004D2E797200000000000004F4
+t1294891378
+s1268
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+i<iAd/iAd.h>
+i"InfoViewController.h"
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m
+c000000004D2E86C8000000000000232D
+t1294894792
+s9005
+i"TextRepeaterViewController.h"
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Icon.png
+c000000004D2E8A640000000000001B93
+t1294895716
+s7059
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/LargeIcon.png
+c000000004D2E8B0700000000000046EB
+t1294895879
+s18155
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/MainWindow.xib
+c000000004CE3FBAD0000000000004E65
+t1290009517
+s20069
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/SmallIcon.png
+c000000004D2E8B180000000000001B93
+t1294895896
+s7059
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib
+c000000004D2E6EDA000000000000CC55
+t1294888666
+s52309
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch
+c000000004CE3FBAD00000000000000C1
+t1290009517
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app
+t1294895935
+s578
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app.dSYM
+t1294895163
+s102
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/Background.jpg
+t1294890058
+s57276
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/Icon.png
+t1294895741
+s6502
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/Info.plist
+t1294895932
+s869
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/InfoViewController.nib
+t1294890866
+s3148
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/LargeIcon.png
+t1294895933
+s15240
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/MainWindow.nib
+t1294890142
+s1133
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/PkgInfo
+t1294895932
+s8
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/ResourceRules.plist
+t1294890058
+s485
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/SmallIcon.png
+t1294895932
+s6502
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/TextRepeater
+t1294895163
+s98944
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/TextRepeaterViewController.nib
+t1294890142
+s4780
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/button.png
+t1294890059
+s1817
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision
+t1294895163
+s7298
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/InfoViewController.o
+t1294891330
+s57484
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeater
+t1294895163
+s39680
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeater.LinkFileList
+c000000004D1E954C000000000000026B
+t1293849932
+s619
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeaterAppDelegate.o
+t1294891379
+s52300
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeaterViewController.o
+t1294895163
+s84876
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/main.o
+t1294890143
+s6492
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/InfoViewController.o
+t1294891330
+s57312
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeater
+t1294895163
+s39680
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeater.LinkFileList
+c000000004D1E954C000000000000026B
+t1293849932
+s619
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeaterAppDelegate.o
+t1294891379
+s52220
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeaterViewController.o
+t1294895163
+s83920
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/main.o
+t1294890143
+s6476
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent
+t1294895933
+s432
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/button.png
+c000000004D0FCCA700000000000007CF
+t1292881063
+s1999
+
+N/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m
+c000000004CE3FBAD000000000000016D
+t1290009517
+s365
+i<UIKit/UIKit.h>
+
+N/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/90B0BAE0-12D4-44D8-9FBF-3B45AF43BCDF.mobileprovision
+c000000004CE568FC0000000000001C8E
+t1290103036
+s7310
+
+N/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/D6D74F0C-268E-4342-B1EA-0220F55FBAEF.mobileprovision
+c000000004D1D9D700000000000001C82
+t1293786480
+s7298
+
+N/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/E576C7BA-25BB-43BD-AD6B-59B5E2E59CDD.mobileprovision
+c000000004D2E842B0000000000001C82
+t1294894123
+s7298
+
+N/var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-akxljsgqjhvakpbclhvhxojerkur/TextRepeater_Prefix.pch.gch
+t1294890143
+s9987800
+
+N/var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-auscyzznfunobgazsubfuizeqyuv/TextRepeater_Prefix.pch.gch
+t1290103102
+s10294832
+
+N/var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-brbjvabqqoanfqfmzapupkhuvdim/TextRepeater_Prefix.pch.gch
+t1294890060
+s10446552
+
+N/var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-bvfuoezrjqxwnhfzwxinnbqduefb/TextRepeater_Prefix.pch.gch
+t1290103102
+s9831984
+
+N/var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-gllbgjqammosrecdntwrzjyaozrc/TextRepeater_Prefix.pch.gch
+t1294890060
+s9987800
+
+N/var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-hfhxzihfnqcryvctqxydjeaunvrk/TextRepeater_Prefix.pch.gch
+t1294890143
+s10446552
+
+NTextRepeater-Info.plist
+c000000004D2E8AD000000000000003BC
+t1294895824
+s956
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316588732#316588732#0(0"0(0#1#0"8681743680#0"0#
+
+CCodeSign "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app"
+s316588733.083858
+e316588735.275341
+r1
+xCodeSign
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app
+o/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app: replacing invalid existing signature
+lSLF07#2@46"CodeSign build/Debug-iphoneos/TextRepeater.app316588733#316588735#0(130"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app: replacing invalid existing signature0(0#0#91"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app8680594240#755"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate"    /usr/bin/codesign -f -s "iPhone Developer: deana maurer (K959Z5MNGG)" "--resource-rules=/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/ResourceRules.plist" --entitlements "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app"0#
+
+CCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/InfoViewController.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316584130.081905
+e316584130.213518
+r1
+xCompileC
+xbuild/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/InfoViewController.o
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m316584130#316584130#0(0"0(0#0#82"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m8641354880#2067"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv6" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -include /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-akxljsgqjhvakpbclhvhxojerkur/TextRepeater_Prefix.pch -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/InfoViewController.o"0#
+
+CCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeaterAppDelegate.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316584179.180214
+e316584179.270602
+r1
+xCompileC
+xbuild/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeaterAppDelegate.o
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m316584179#316584179#0(0"0(0#0#87"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m8640078016#2077"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv6" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -include /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-akxljsgqjhvakpbclhvhxojerkur/TextRepeater_Prefix.pch -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeaterAppDelegate.o"0#
+
+CCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeaterViewController.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316587963.042590
+e316587963.255269
+r1
+xCompileC
+xbuild/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeaterViewController.o
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m316587963#316587963#0(0"0(0#0#90"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m8660589248#2083"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv6" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -include /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-akxljsgqjhvakpbclhvhxojerkur/TextRepeater_Prefix.pch -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeaterViewController.o"0#
+
+CCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/main.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316582943.420919
+e316582943.473704
+r1
+xCompileC
+xbuild/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/main.o
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m316582943#316582943#0(0"0(0#0#60"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m8615614048#2031"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv6" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -include /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-akxljsgqjhvakpbclhvhxojerkur/TextRepeater_Prefix.pch -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/InfoViewController.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316584130.230901
+e316584130.322061
+r1
+xCompileC
+xbuild/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/InfoViewController.o
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m316584130#316584130#0(0"0(0#0#82"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m8639500480#2067"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv7" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -include /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-hfhxzihfnqcryvctqxydjeaunvrk/TextRepeater_Prefix.pch -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.m" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/InfoViewController.o"0#
+
+CCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeaterAppDelegate.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316584179.270904
+e316584179.353687
+r1
+xCompileC
+xbuild/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeaterAppDelegate.o
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m316584179#316584179#0(0"0(0#0#87"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m8641148128#2077"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv7" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -include /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-hfhxzihfnqcryvctqxydjeaunvrk/TextRepeater_Prefix.pch -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterAppDelegate.m" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeaterAppDelegate.o"0#
+
+CCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeaterViewController.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316587963.044157
+e316587963.351516
+r1
+xCompileC
+xbuild/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeaterViewController.o
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m316587963#316587963#0(0"0(0#0#90"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m8658356672#2083"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv7" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -include /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-hfhxzihfnqcryvctqxydjeaunvrk/TextRepeater_Prefix.pch -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/TextRepeaterViewController.m" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeaterViewController.o"0#
+
+CCompileC build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/main.o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316582943.613804
+e316582943.677440
+r1
+xCompileC
+xbuild/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/main.o
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m316582943#316582943#0(0"0(0#0#60"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m8613205376#2031"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv7" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -include /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-hfhxzihfnqcryvctqxydjeaunvrk/TextRepeater_Prefix.pch -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/main.m" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.xib"
+s316583665.703927
+e316583666.239064
+r1
+xCompileXIB
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.xib
+lSLF07#2@41"CompileXIB Classes/InfoViewController.xib316583665#316583666#0(0"0(0#0#84"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.xib8612012544#642"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/InfoViewController.nib" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Classes/InfoViewController.xib" --sdk "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk"0#
+
+CCompileXIB "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/MainWindow.xib"
+s316582941.822334
+e316582942.234146
+r1
+xCompileXIB
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib316582941#316582942#0(0"0(0#0#68"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/MainWindow.xib8616006304#618"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/MainWindow.nib" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/MainWindow.xib" --sdk "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk"0#
+
+CCompileXIB "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib"
+s316582941.823019
+e316582942.481435
+r1
+xCompileXIB
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib:22: note: This view is clipping its content.
+o/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib:33: note: This view is clipping its content.
+o/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib:40: note: This view is clipping its content.
+o/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib:38: note: This view is clipping its content.
+lSLF07#2@41"CompileXIB TextRepeaterViewController.xib316582941#316582942#0(560"/* com.apple.ibtool.document.notices *//Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib:22: note: This view is clipping its content./Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib:33: note: This view is clipping its content./Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib:40: note: This view is clipping its content./Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib:38: note: This view is clipping its content.4(13@34"This view is clipping its content.316582942#18446744073709551615#0#0(6@84"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib316581466#22#0#22#0#0"0(13@34"This view is clipping its content.316582942#18446744073709551615#0#0(6@84"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib316581466#33#0#33#0#0"0(13@34"This view is clipping its content.316582942#18446744073709551615#0#0(6@84"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib316581466#40#0#40#0#0"0(13@34"This view is clipping its content.316582942#18446744073709551615#0#0(6@84"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib316581466#38#0#38#0#0"0(0#0#84"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib8615643072#650"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/TextRepeaterViewController.nib" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeaterViewController.xib" --sdk "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk"0#
+
+CCopyPNGFile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/Icon.png" Icon.png
+s316588541.071627
+e316588541.110336
+r1
+xCopyPNGFile
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/Icon.png
+xIcon.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/TextRepeater.app/Icon.png Icon.png316588541#316588541#0(0"0(0#0#62"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Icon.png8678549440#630"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv COPY_COMMAND "/Developer 4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Icon.png" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/Icon.png"0#
+
+CCopyPNGFile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/LargeIcon.png" LargeIcon.png
+s316588732.885211
+e316588733.071285
+r1
+xCopyPNGFile
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/LargeIcon.png
+xLargeIcon.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/TextRepeater.app/LargeIcon.png LargeIcon.png316588732#316588733#0(0"0(0#0#67"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/LargeIcon.png8673889920#640"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv COPY_COMMAND "/Developer 4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/LargeIcon.png" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/LargeIcon.png"0#
+
+CCopyPNGFile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/SmallIcon.png" SmallIcon.png
+s316588732.887080
+e316588732.958034
+r1
+xCopyPNGFile
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/SmallIcon.png
+xSmallIcon.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/TextRepeater.app/SmallIcon.png SmallIcon.png316588732#316588732#0(0"0(0#0#67"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/SmallIcon.png8672852960#640"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv COPY_COMMAND "/Developer 4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/SmallIcon.png" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/SmallIcon.png"0#
+
+CCopyPNGFile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/button.png" button.png
+s316582858.993867
+e316582859.031978
+r1
+xCopyPNGFile
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/button.png
+xbutton.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/TextRepeater.app/button.png button.png316582858#316582859#0(0"0(0#0#64"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/button.png8614713440#634"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv COPY_COMMAND "/Developer 4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/button.png" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/button.png"0#
+
+CCpResource build/Debug-iphoneos/TextRepeater.app/Background.jpg Background.jpg
+s316582858.992918
+e316582858.999505
+r1
+xCpResource
+xbuild/Debug-iphoneos/TextRepeater.app/Background.jpg
+xBackground.jpg
+lSLF07#2@19"Copy Background.jpg316582858#316582858#0(0"0(0#0#68"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Background.jpg8615439840#528"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp" -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/Background.jpg" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app"0#
+
+CCpResource build/Debug-iphoneos/TextRepeater.app/ResourceRules.plist "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist"
+s316582858.504438
+e316582858.519069
+r1
+xCpResource
+xbuild/Debug-iphoneos/TextRepeater.app/ResourceRules.plist
+x/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@98"Copy /Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist316582858#316582858#0(0"0(0#0#93"/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8028903794874265600#553"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp" -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app"0#
+
+CCpResource build/Debug-iphoneos/TextRepeater.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+s311795900.939245
+e311795900.950969
+r1
+xCpResource
+xbuild/Debug-iphoneos/TextRepeater.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist311795900#311795900#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist5994135409057033216#519"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app"0#
+
+CCreateUniversalBinary "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/TextRepeater" normal "armv6 armv7"
+s316587963.384100
+e316587963.388751
+r1
+xCreateUniversalBinary
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/TextRepeater
+xnormal
+xarmv6 armv7
+lSLF07#2@93"CreateUniversalBinary build/Debug-iphoneos/TextRepeater.app/TextRepeater normal "armv6 armv7"316587963#316587963#0(0"0(0#0#65"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/armv6 armv78671549952#634"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeater" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeater" -output "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/TextRepeater"0#
+
+CGenerateDSYMFile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app.dSYM" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/TextRepeater"
+s316587963.388845
+e316587963.427225
+r1
+xGenerateDSYMFile
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app.dSYM
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/TextRepeater
+lSLF07#2@110"GenerateDSYMFile build/Debug-iphoneos/TextRepeater.app.dSYM build/Debug-iphoneos/TextRepeater.app/TextRepeater316587963#316587963#0(0"0(0#0#104"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/TextRepeater8670268320#442"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/usr/bin/dsymutil" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/TextRepeater" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app.dSYM"0#
+
+CLd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeater" normal armv6
+s316587963.255362
+e316587963.296810
+r1
+xLd
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeater
+xnormal
+xarmv6
+lSLF07#2@151"Link /Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeater316587963#316587963#0(0"0(0#0#0"8655774208#1030"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -arch armv6 -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" "-L/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" -filelist "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeater.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework MessageUI -framework iAd -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv6/TextRepeater"0#
+
+CLd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeater" normal armv7
+s316587963.351607
+e316587963.384005
+r1
+xLd
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeater
+xnormal
+xarmv7
+lSLF07#2@151"Link /Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeater316587963#316587963#0(0"0(0#0#0"8674503360#1030"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -arch armv7 -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" "-L/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" -filelist "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeater.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework MessageUI -framework iAd -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/Objects-normal/armv7/TextRepeater"0#
+
+CProcessInfoPlistFile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/Info.plist" TextRepeater-Info.plist
+s316588732.881811
+e316588732.884822
+r1
+xProcessInfoPlistFile
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/Info.plist
+xTextRepeater-Info.plist
+lSLF07#2@31"Process TextRepeater-Info.plist316588732#316588732#0(0"0(0#0#77"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater-Info.plist8677126816#658"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TextRepeater-Info.plist -genpkginfo "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/ResourceRules.plist" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/Info.plist"0#
+
+CProcessPCH /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-akxljsgqjhvakpbclhvhxojerkur/TextRepeater_Prefix.pch.gch TextRepeater_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316582942.751869
+e316582943.410257
+r1
+xProcessPCH
+x/var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-akxljsgqjhvakpbclhvhxojerkur/TextRepeater_Prefix.pch.gch
+xTextRepeater_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile TextRepeater_Prefix.pch316582942#316582943#0(0"0(0#0#77"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch8614710400#1907"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv6" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch" -o /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-akxljsgqjhvakpbclhvhxojerkur/TextRepeater_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-auscyzznfunobgazsubfuizeqyuv/TextRepeater_Prefix.pch.gch TextRepeater_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311795901.482536
+e311795902.191590
+r1
+xProcessPCH
+x/var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-auscyzznfunobgazsubfuizeqyuv/TextRepeater_Prefix.pch.gch
+xTextRepeater_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile TextRepeater_Prefix.pch311795901#311795902#0(0"0(0#0#77"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch8616976512#1887"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv7" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch" -o /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-auscyzznfunobgazsubfuizeqyuv/TextRepeater_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-brbjvabqqoanfqfmzapupkhuvdim/TextRepeater_Prefix.pch.gch TextRepeater_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316582859.565153
+e316582860.211270
+r1
+xProcessPCH
+x/var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-brbjvabqqoanfqfmzapupkhuvdim/TextRepeater_Prefix.pch.gch
+xTextRepeater_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile TextRepeater_Prefix.pch316582859#316582860#0(0"0(0#0#77"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch8612827008#1907"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv7" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch" -o /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-brbjvabqqoanfqfmzapupkhuvdim/TextRepeater_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-bvfuoezrjqxwnhfzwxinnbqduefb/TextRepeater_Prefix.pch.gch TextRepeater_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311795901.481598
+e311795902.175144
+r1
+xProcessPCH
+x/var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-bvfuoezrjqxwnhfzwxinnbqduefb/TextRepeater_Prefix.pch.gch
+xTextRepeater_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile TextRepeater_Prefix.pch311795901#311795902#0(0"0(0#0#77"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch8618014784#1887"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv6" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch" -o /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-bvfuoezrjqxwnhfzwxinnbqduefb/TextRepeater_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-gllbgjqammosrecdntwrzjyaozrc/TextRepeater_Prefix.pch.gch TextRepeater_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316582859.563934
+e316582860.175412
+r1
+xProcessPCH
+x/var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-gllbgjqammosrecdntwrzjyaozrc/TextRepeater_Prefix.pch.gch
+xTextRepeater_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile TextRepeater_Prefix.pch316582859#316582860#0(0"0(0#0#77"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch8386095514551219200#1907"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv6" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch" -o /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-gllbgjqammosrecdntwrzjyaozrc/TextRepeater_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-hfhxzihfnqcryvctqxydjeaunvrk/TextRepeater_Prefix.pch.gch TextRepeater_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316582942.752810
+e316582943.420800
+r1
+xProcessPCH
+x/var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-hfhxzihfnqcryvctqxydjeaunvrk/TextRepeater_Prefix.pch.gch
+xTextRepeater_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile TextRepeater_Prefix.pch316582942#316582943#0(0"0(0#0#77"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch8613378912#1907"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-generated-files.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-own-target-headers.hmap" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-all-target-headers.hmap" -iquote "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater-project-headers.hmap" "-F/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/include" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources/armv7" "-I/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/DerivedSources" -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater_Prefix.pch" -o /var/folders/YH/YHDXve4UFBOBAhwhoxI9YU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TextRepeater_Prefix-hfhxzihfnqcryvctqxydjeaunvrk/TextRepeater_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent"
+s316588733.077525
+e316588733.083790
+r1
+xProcessProductPackaging
+x/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent
+lSLF07#2@196"ProcessProductPackaging "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist" build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent316588733#316588733#0(0"0(0#0#131"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent8671220448#495"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist" -entitlements -format xml -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent"0#
+
+CProcessProductPackaging "/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/90B0BAE0-12D4-44D8-9FBF-3B45AF43BCDF.mobileprovision" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision"
+s311795902.591928
+e311795902.593416
+r1
+xProcessProductPackaging
+x/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/90B0BAE0-12D4-44D8-9FBF-3B45AF43BCDF.mobileprovision
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/90B0BAE0-12D4-44D8-9FBF-3B45AF43BCDF.mobileprovision" build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision311795902#311795902#0(0"0(0#0#116"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision8600171712#467"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/90B0BAE0-12D4-44D8-9FBF-3B45AF43BCDF.mobileprovision" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging "/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/D6D74F0C-268E-4342-B1EA-0220F55FBAEF.mobileprovision" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision"
+s315511505.901721
+e315511505.902870
+r1
+xProcessProductPackaging
+x/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/D6D74F0C-268E-4342-B1EA-0220F55FBAEF.mobileprovision
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/D6D74F0C-268E-4342-B1EA-0220F55FBAEF.mobileprovision" build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision315511505#315511505#0(0"0(0#0#116"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision8603614080#467"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/D6D74F0C-268E-4342-B1EA-0220F55FBAEF.mobileprovision" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging "/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/E576C7BA-25BB-43BD-AD6B-59B5E2E59CDD.mobileprovision" "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision"
+s316587963.427349
+e316587963.430643
+r1
+xProcessProductPackaging
+x/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/E576C7BA-25BB-43BD-AD6B-59B5E2E59CDD.mobileprovision
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/E576C7BA-25BB-43BD-AD6B-59B5E2E59CDD.mobileprovision" build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision316587963#316587963#0(0"0(0#0#116"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision8669408416#475"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/derekm9292/Library/MobileDevice/Provisioning Profiles/E576C7BA-25BB-43BD-AD6B-59B5E2E59CDD.mobileprovision" -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent"
+s315511505.905658
+e315511505.907165
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent
+lSLF07#2@190"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent315511505#315511505#0(0"0(0#0#131"/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent8604000032#481"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/TextRepeater.build/Debug-iphoneos/TextRepeater.build/TextRepeater.xcent"0#
+
+CTouch "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app"
+s316588733.073118
+e316588733.077418
+r1
+xTouch
+x/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app
+lSLF07#2@97"Touch /Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app316588733#316588733#0(0"0(0#0#0"8675257056#311"    cd "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater"    setenv PATH "/Developer 4.2/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/build/Debug-iphoneos/TextRepeater.app"0#
+

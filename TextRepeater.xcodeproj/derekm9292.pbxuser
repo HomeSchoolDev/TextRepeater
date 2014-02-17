@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* TextRepeater */ = {
+		activeExec = 0;
+		executables = (
+			8790991C1294332D007F796A /* TextRepeater */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* TextRepeaterViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 611}}";
+			sepNavSelRange = "{323, 77}";
+			sepNavVisRange = "{157, 1031}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* TextRepeaterViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{336, 161}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    r = \"{767, 221}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{1025, 239}\";\n                    s = 0;\n                }\n            );\n            r = \"{524, 742}\";\n            s = 0;\n        },\n                {\n            r = \"{1297, 307}\";\n            s = 0;\n        },\n                {\n            r = \"{1627, 173}\";\n            s = 0;\n        },\n                {\n            r = \"{1822, 354}\";\n            s = 0;\n        },\n                {\n            r = \"{2199, 498}\";\n            s = 0;\n        },\n                {\n            r = \"{3809, 203}\";\n            s = 0;\n        },\n                {\n            r = \"{4145, 50}\";\n            s = 0;\n        },\n                {\n            r = \"{4340, 295}\";\n            s = 0;\n        },\n                {\n            r = \"{4763, 419}\";\n            s = 0;\n        },\n                {\n            r = \"{5199, 516}\";\n            s = 0;\n        },\n                {\n            r = \"{5749, 230}\";\n            s = 0;\n        },\n                {\n            r = \"{6012, 227}\";\n            s = 0;\n        },\n                {\n            r = \"{6328, 34}\";\n            s = 0;\n        },\n                {\n            r = \"{6415, 33}\";\n            s = 0;\n        },\n                {\n            r = \"{6499, 139}\";\n            s = 0;\n        },\n                {\n            r = \"{6661, 303}\";\n            s = 0;\n        },\n                {\n            r = \"{6989, 573}\";\n            s = 0;\n        },\n                {\n            r = \"{7586, 158}\";\n            s = 0;\n        },\n                {\n            r = \"{7777, 159}\";\n            s = 0;\n        },\n                {\n            r = \"{8025, 224}\";\n            s = 0;\n        },\n                {\n            r = \"{8459, 197}\";\n            s = 0;\n        },\n                {\n            r = \"{8693, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{8873, 83}\";\n            s = 0;\n        },\n                {\n            r = \"{8975, 22}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 9005}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1039, 1066}}";
+			sepNavSelRange = "{2497, 66}";
+			sepNavVisRange = "{1545, 1230}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribution;
+		activeExecutable = 8790991C1294332D007F796A /* TextRepeater */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TextRepeater */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TextRepeater */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 879099271294334C007F796A /* Code sense */;
+		executables = (
+			8790991C1294332D007F796A /* TextRepeater */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					702,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					814,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					774,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320541961;
+			PBXWorkspaceStateSaveDate = 320541961;
+		};
+		perUserProjectItems = {
+			8703E12912ED563000190E9E /* PlistBookmark */ = 8703E12912ED563000190E9E /* PlistBookmark */;
+			8707AF2F131A4F7700D04850 /* PBXTextBookmark */ = 8707AF2F131A4F7700D04850 /* PBXTextBookmark */;
+			8707AF36131B151200D04850 /* PBXTextBookmark */ = 8707AF36131B151200D04850 /* PBXTextBookmark */;
+			874BFF9F12DEB0F300A899FC /* PBXTextBookmark */ = 874BFF9F12DEB0F300A899FC /* PBXTextBookmark */;
+			874BFFB312DEB1CC00A899FC /* PBXTextBookmark */ = 874BFFB312DEB1CC00A899FC /* PBXTextBookmark */;
+			87F13C1C1303165E00882D1B /* PBXTextBookmark */ = 87F13C1C1303165E00882D1B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 879099261294334C007F796A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8703E12912ED563000190E9E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TextRepeater-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/derekm9292/Dev/iPhone/My Projects/TextRepeater/TextRepeater-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	8707AF2F131A4F7700D04850 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* TextRepeaterViewController.m */;
+		name = "TextRepeaterViewController.m: 245";
+		rLen = 66;
+		rLoc = 8274;
+		rType = 0;
+		vrLen = 5231;
+		vrLoc = 3774;
+	};
+	8707AF36131B151200D04850 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* TextRepeaterViewController.m */;
+		name = "TextRepeaterViewController.m: 245";
+		rLen = 66;
+		rLoc = 8274;
+		rType = 0;
+		vrLen = 5231;
+		vrLoc = 3774;
+	};
+	874BFF9F12DEB0F300A899FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8793D0E112CEB34300A230E9 /* InfoViewController.h */;
+		name = "InfoViewController.h: 22";
+		rLen = 0;
+		rLoc = 447;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 0;
+	};
+	874BFFB312DEB1CC00A899FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8793D0E212CEB34300A230E9 /* InfoViewController.m */;
+		name = "InfoViewController.m: 58";
+		rLen = 9;
+		rLoc = 1868;
+		rType = 0;
+		vrLen = 2926;
+		vrLoc = 0;
+	};
+	8790991C1294332D007F796A /* TextRepeater */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TextRepeater;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	879099261294334C007F796A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	879099271294334C007F796A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8793D0E112CEB34300A230E9 /* InfoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 474}}";
+			sepNavSelRange = "{447, 0}";
+			sepNavVisRange = "{0, 454}";
+		};
+	};
+	8793D0E212CEB34300A230E9 /* InfoViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{239, 69}\";\n            s = 0;\n        },\n                {\n            r = \"{335, 463}\";\n            s = 0;\n        },\n                {\n            r = \"{827, 459}\";\n            s = 0;\n        },\n                {\n            r = \"{1309, 49}\";\n            s = 0;\n        },\n                {\n            r = \"{1385, 136}\";\n            s = 0;\n        },\n                {\n            r = \"{1989, 106}\";\n            s = 0;\n        },\n                {\n            r = \"{2240, 295}\";\n            s = 0;\n        },\n                {\n            r = \"{2571, 164}\";\n            s = 0;\n        },\n                {\n            r = \"{2760, 116}\";\n            s = 0;\n        },\n                {\n            r = \"{2895, 22}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 2926}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1039, 494}}";
+			sepNavSelRange = "{697, 9}";
+			sepNavVisRange = "{0, 1057}";
+		};
+	};
+	87F13C1C1303165E00882D1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* TextRepeaterViewController.h */;
+		name = "TextRepeaterViewController.h: 14";
+		rLen = 77;
+		rLoc = 323;
+		rType = 0;
+		vrLen = 1031;
+		vrLoc = 157;
+	};
+}

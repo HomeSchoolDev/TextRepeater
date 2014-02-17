@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="vhv-pl-WKl">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Text Repeater View Controller-->
+        <scene sceneID="A4Q-Te-Gvr">
+            <objects>
+                <viewController id="vhv-pl-WKl" customClass="TextRepeaterViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VFK-0G-Bog"/>
+                        <viewControllerLayoutGuide type="bottom" id="PHW-GN-6St"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oq5-1x-tqW">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Repeated Text" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DZQ-tK-qBH">
+                                <rect key="frame" x="0.0" y="29" width="768" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="nnn-JJ-60w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldDidBeginEditing:" destination="vhv-pl-WKl" eventType="editingDidBegin" id="nqc-KR-TT8"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" placeholder="Number of Iterations" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NS6-XY-b0s">
+                                <rect key="frame" x="0.0" y="80" width="768" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="isK-1N-2mV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="textFieldDidBeginEditing:" destination="vhv-pl-WKl" eventType="editingDidBegin" id="GyM-0J-XBm"/>
+                                    <outlet property="delegate" destination="vhv-pl-WKl" id="Wog-Eu-39M"/>
+                                </connections>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PN5-iW-Uwz">
+                                <rect key="frame" x="0.0" y="199" width="768" height="825"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                            </textView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2z-UW-EG9">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hideKeyboardButtonPressed:" destination="vhv-pl-WKl" eventType="touchUpInside" id="MCz-uy-UuH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFl-E7-2Nm">
+                                <rect key="frame" x="0.0" y="137" width="768" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculateButtonPressed:" destination="vhv-pl-WKl" eventType="touchUpInside" id="UFA-UV-vZi"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="mEf-VR-fjO">
+                                <rect key="frame" x="366" y="141" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cFl-E7-2Nm" firstAttribute="top" secondItem="NS6-XY-b0s" secondAttribute="bottom" constant="14" id="2b5-og-efS"/>
+                            <constraint firstItem="PN5-iW-Uwz" firstAttribute="trailing" secondItem="cFl-E7-2Nm" secondAttribute="trailing" id="AMy-QX-yhu"/>
+                            <constraint firstAttribute="bottom" secondItem="PN5-iW-Uwz" secondAttribute="bottom" id="As6-0p-bkB"/>
+                            <constraint firstItem="cFl-E7-2Nm" firstAttribute="leading" secondItem="NS6-XY-b0s" secondAttribute="leading" id="BB1-v1-r5p"/>
+                            <constraint firstItem="DZQ-tK-qBH" firstAttribute="leading" secondItem="oq5-1x-tqW" secondAttribute="leading" id="Bl3-43-Odx"/>
+                            <constraint firstItem="NS6-XY-b0s" firstAttribute="leading" secondItem="DZQ-tK-qBH" secondAttribute="leading" id="CHt-SP-yDu"/>
+                            <constraint firstItem="NS6-XY-b0s" firstAttribute="top" secondItem="DZQ-tK-qBH" secondAttribute="bottom" constant="8" symbolic="YES" id="ChA-je-kbF"/>
+                            <constraint firstItem="DZQ-tK-qBH" firstAttribute="trailing" secondItem="NS6-XY-b0s" secondAttribute="trailing" id="HNO-Yg-7UO"/>
+                            <constraint firstItem="C2z-UW-EG9" firstAttribute="leading" secondItem="PN5-iW-Uwz" secondAttribute="leading" id="Ioj-nZ-MkD"/>
+                            <constraint firstAttribute="trailing" secondItem="DZQ-tK-qBH" secondAttribute="trailing" id="Kdp-Qu-tjK"/>
+                            <constraint firstItem="DZQ-tK-qBH" firstAttribute="top" secondItem="VFK-0G-Bog" secondAttribute="bottom" constant="9" id="LLf-He-q0g"/>
+                            <constraint firstItem="C2z-UW-EG9" firstAttribute="trailing" secondItem="PN5-iW-Uwz" secondAttribute="trailing" id="PFI-rM-oVD"/>
+                            <constraint firstItem="PN5-iW-Uwz" firstAttribute="top" secondItem="cFl-E7-2Nm" secondAttribute="bottom" constant="16" id="PiJ-yA-1aR"/>
+                            <constraint firstItem="NS6-XY-b0s" firstAttribute="trailing" secondItem="cFl-E7-2Nm" secondAttribute="trailing" id="UhT-u8-ptQ"/>
+                            <constraint firstItem="PN5-iW-Uwz" firstAttribute="bottom" secondItem="C2z-UW-EG9" secondAttribute="bottom" id="Vjm-2i-aoE"/>
+                            <constraint firstItem="PN5-iW-Uwz" firstAttribute="top" secondItem="mEf-VR-fjO" secondAttribute="bottom" constant="21" id="ZkL-kx-vrb"/>
+                            <constraint firstItem="mEf-VR-fjO" firstAttribute="top" secondItem="NS6-XY-b0s" secondAttribute="bottom" constant="18" id="acV-i4-4jm"/>
+                            <constraint firstItem="PN5-iW-Uwz" firstAttribute="leading" secondItem="cFl-E7-2Nm" secondAttribute="leading" id="o3d-0z-yNk"/>
+                            <constraint firstItem="C2z-UW-EG9" firstAttribute="top" secondItem="oq5-1x-tqW" secondAttribute="top" id="vUb-7q-Gb1"/>
+                            <constraint firstItem="cFl-E7-2Nm" firstAttribute="centerX" secondItem="mEf-VR-fjO" secondAttribute="centerX" id="xYS-Hb-EwR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityView" destination="mEf-VR-fjO" id="Ms8-B7-fpG"/>
+                        <outlet property="calculateButton" destination="cFl-E7-2Nm" id="o4i-Oe-jwb"/>
+                        <outlet property="closeKeyboardButton" destination="C2z-UW-EG9" id="K73-LB-asC"/>
+                        <outlet property="numberOfTimesTextField" destination="NS6-XY-b0s" id="o9o-el-xh2"/>
+                        <outlet property="textField" destination="DZQ-tK-qBH" id="SMO-Rb-rzE"/>
+                        <outlet property="textView" destination="PN5-iW-Uwz" id="mh1-4R-hvQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Gt-xb-GfH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="239" y="19"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

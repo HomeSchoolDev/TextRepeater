@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="JOe-9u-JPT">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Text Repeater View Controller-->
+        <scene sceneID="e1w-7z-ZAk">
+            <objects>
+                <viewController id="JOe-9u-JPT" customClass="TextRepeaterViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OCz-Pt-Z7y"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wtl-XZ-QSN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="duC-lk-xwa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Repeated Text" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rE3-pp-OSE">
+                                <rect key="frame" x="0.0" y="29" width="320" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="s3t-0P-qPI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldDidBeginEditing:" destination="JOe-9u-JPT" eventType="editingDidBegin" id="vG4-dg-76b"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" placeholder="Number of Iterations" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uml-WI-8JT">
+                                <rect key="frame" x="0.0" y="80" width="320" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="olF-l9-yOq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="textFieldDidBeginEditing:" destination="JOe-9u-JPT" eventType="editingDidBegin" id="ecq-bp-HgR"/>
+                                    <outlet property="delegate" destination="JOe-9u-JPT" id="7b7-95-h9h"/>
+                                </connections>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0dd-Yc-hNA">
+                                <rect key="frame" x="0.0" y="199" width="320" height="369"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                            </textView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2e-ZL-jhB">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hideKeyboardButtonPressed:" destination="JOe-9u-JPT" eventType="touchUpInside" id="D4d-nr-xvS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yij-qQ-B8b">
+                                <rect key="frame" x="0.0" y="137" width="320" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="bmb-uX-Tke"/>
+                                </constraints>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculateButtonPressed:" destination="JOe-9u-JPT" eventType="touchUpInside" id="ndK-O0-acq"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Ign-Fu-fAU">
+                                <rect key="frame" x="142" y="141" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yij-qQ-B8b" firstAttribute="top" secondItem="uml-WI-8JT" secondAttribute="bottom" constant="14" id="3ec-nG-DK2"/>
+                            <constraint firstItem="Ign-Fu-fAU" firstAttribute="top" secondItem="uml-WI-8JT" secondAttribute="bottom" constant="18" id="574-2d-etN"/>
+                            <constraint firstItem="0dd-Yc-hNA" firstAttribute="trailing" secondItem="yij-qQ-B8b" secondAttribute="trailing" id="7e0-nk-noB"/>
+                            <constraint firstItem="Ign-Fu-fAU" firstAttribute="centerX" secondItem="yij-qQ-B8b" secondAttribute="centerX" id="BMQ-XT-DvV"/>
+                            <constraint firstItem="yij-qQ-B8b" firstAttribute="leading" secondItem="0dd-Yc-hNA" secondAttribute="leading" id="DAu-SJ-IGe"/>
+                            <constraint firstItem="0dd-Yc-hNA" firstAttribute="leading" secondItem="duC-lk-xwa" secondAttribute="leading" id="Ldl-nb-Acc"/>
+                            <constraint firstAttribute="bottom" secondItem="A2e-ZL-jhB" secondAttribute="bottom" id="LrU-Zk-eh7"/>
+                            <constraint firstItem="uml-WI-8JT" firstAttribute="top" secondItem="rE3-pp-OSE" secondAttribute="bottom" constant="8" symbolic="YES" id="PDo-aE-sOG"/>
+                            <constraint firstAttribute="trailing" secondItem="yij-qQ-B8b" secondAttribute="trailing" id="cGk-pv-A8W"/>
+                            <constraint firstItem="A2e-ZL-jhB" firstAttribute="trailing" secondItem="uml-WI-8JT" secondAttribute="trailing" id="d8V-c9-MQ4"/>
+                            <constraint firstItem="uml-WI-8JT" firstAttribute="leading" secondItem="yij-qQ-B8b" secondAttribute="leading" id="kbT-a2-PFI"/>
+                            <constraint firstItem="rE3-pp-OSE" firstAttribute="top" secondItem="OCz-Pt-Z7y" secondAttribute="bottom" constant="9" id="p7c-pR-aPl"/>
+                            <constraint firstItem="0dd-Yc-hNA" firstAttribute="top" secondItem="yij-qQ-B8b" secondAttribute="bottom" constant="16" id="ske-YW-YjG"/>
+                            <constraint firstItem="A2e-ZL-jhB" firstAttribute="top" secondItem="duC-lk-xwa" secondAttribute="top" id="unH-ys-7g1"/>
+                            <constraint firstItem="yij-qQ-B8b" firstAttribute="trailing" secondItem="uml-WI-8JT" secondAttribute="trailing" id="waC-79-v2p"/>
+                            <constraint firstItem="A2e-ZL-jhB" firstAttribute="leading" secondItem="rE3-pp-OSE" secondAttribute="leading" id="xF6-2K-ZPJ"/>
+                            <constraint firstItem="rE3-pp-OSE" firstAttribute="leading" secondItem="uml-WI-8JT" secondAttribute="leading" id="yty-qn-Nei"/>
+                            <constraint firstItem="A2e-ZL-jhB" firstAttribute="bottom" secondItem="0dd-Yc-hNA" secondAttribute="bottom" id="zJP-ZZ-OMt"/>
+                            <constraint firstItem="rE3-pp-OSE" firstAttribute="trailing" secondItem="uml-WI-8JT" secondAttribute="trailing" id="zMU-cC-QpK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityView" destination="Ign-Fu-fAU" id="sBM-yY-mUG"/>
+                        <outlet property="calculateButton" destination="yij-qQ-B8b" id="rcb-Cj-TY5"/>
+                        <outlet property="closeKeyboardButton" destination="A2e-ZL-jhB" id="3fA-HE-Q5A"/>
+                        <outlet property="numberOfTimesTextField" destination="uml-WI-8JT" id="rfp-vg-A8v"/>
+                        <outlet property="textField" destination="rE3-pp-OSE" id="0JY-aq-gvf"/>
+                        <outlet property="textView" destination="0dd-Yc-hNA" id="dpm-mL-8XM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="een-Tr-oko" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="239" y="19"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
